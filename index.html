@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">  
+       <meta name="viewport" content="width=device-width, initial-scale=1"> 
+       <title>Virtually Friends</title>
+       <link rel="stylesheet" href="stylesheets/index.css">
+    </head>
+    <body>
+        <div class="header">
+          <h1 id="title">My Blind Date Simulator</h1>
+        </div>
+        <div class="container">
+          <p id="name">Hi! What is your name?</p>
+        
+            <input type="text" id="myTextBox" />
+            <input type="submit" value="Click Me" onclick="substitute()" />
+        
+          <p id="message"></p>
+          <p id="feeling">How are you feeling?</p>   
+            
+            <select id="myTextBox2">
+               <option selected="selected">...</option> 
+               <option value="happy">Happy</option>
+               <option value="sad">Sad</option> 
+               <option value="angry">Angry</option> 
+               <option value="nervous">Nervous</option>    
+            </select>    
+            <input type="submit" value="Click Me" onclick="substitute2()" />
+            
+          <p id="message2"></p> 
+          <p id="type">What do you look for in a mate?</p> 
+            
+            <select id="myTextBox3">
+               <option selected="selected">...</option> 
+               <option value="bad">Devilish</option>
+               <option value="funny">Funny</option> 
+               <option value="sweet">Sensitive</option>
+               <option value="smart">Intelligent</option>
+            </select>    
+            <input type="submit" value="Click Me" onclick="substitute3()" />
+            
+         <p id="message3"></p>
+         <p id="poem">Would you like to hear a poem?</p>   
+            
+            <select id="myTextBox4">
+               <option selected="selected">...</option> 
+               <option value="yes">YES</option>
+               <option value="no">NO</option> 
+            </select>    
+            <input type="submit" value="Click Me" onclick="substitute4()" />
+            
+         <p id="poetry"></p>  
+         <p id="game">Wanna play "2 truths and a lie?"  I'll go first...</p>  
+            
+             <select id="myTextBox5">
+               <option value="story1">Story 1</option> 
+               <option value="story2">Story 2</option>
+               <option value="story3">Story 3</option> 
+            </select>    
+            <input type="submit" value="Click Me" onclick="substitute5()" />
+            
+         <p id="stories"></p>  
+         <p id="choice">So...which one was the lie?</p> 
+            
+             <select id="myTextBox6">
+               <option value="story1">Story 1</option> 
+               <option value="story2">Story 2</option>
+               <option value="story3">Story 3</option> 
+            </select>    
+            <input type="submit" value="Click Me" onclick="substitute6()" />
+            
+         <p id="answer"></p>
+            
+            
+        </div>
+        
+    <script src="js/index.js"></script>    
+    </body>
+</html>
