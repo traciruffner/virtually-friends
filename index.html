@@ -11,12 +11,12 @@
           <h1 id="title">My Blind Date Simulator</h1>
         </div>
         <div class="container">
-          <p id="name">Hi! What is your name?</p>
+          <p id="name">Hi! What should I call you?</p>
         
             <input type="text" id="myTextBox" />
             <input type="submit" value="Click Me" onclick="substitute()" />
-        
           <p id="message"></p>
+            
           <p id="feeling">How are you feeling?</p>   
             
             <select id="myTextBox2">
@@ -71,10 +71,57 @@
             <input type="submit" value="Click Me" onclick="substitute6()" />
             
          <p id="answer"></p>
-            
-            
+         <p id="game2">That was fun! How about some riddles?  Can you figure out these riddles?</p> 
+            <ul>
+              <li id="riddle1">2, 3, 5, 9, 17, _ What is the next number in the sequence?</li>
+                <input type="text" id="myTextBox7" />
+                <input type="submit" value="Click Me" onclick="substitute7()" />
+                  <p id="answer1"></p>
+              <li id="riddle2">As I was going to the mall I met a man with seven wives. Each wife held two bags. Each bag held a mother cat. Each mother cat had six babies. How many people where going to the mall?
+                <input type="text" id="myTextBox8" />
+                <input type="submit" value="Click Me" onclick="substitute8()" />
+                  <p id="answer2"></p>     
+              </li>    
+            </ul>
+        <p id="fun">I'm really enjoying our time together!  Are you?</p>    
+            <select id="myTextBox9">
+               <option selected="selected">...</option> 
+               <option value="yes">YES</option>
+               <option value="no">NO</option> 
+            </select>    
+            <input type="submit" value="Click Me" onclick="substitute9()" />
+            <p id="response"></p>
+        <div class="col-md-3">    
+        <p id="drink">Would you like another drink?</p>
+         
+            <select id="myTextBox10">
+               <option selected="selected">...</option> 
+               <option value="appletini">Appletini</option>
+               <option value="whiskey">Whiskey Sour</option> 
+               <option value="tequila">Tequila</option> 
+               <option value="beer">Beer</option> 
+               <option value="none">None</option>        
+            </select> 
+          
+            <input type="submit" value="Click Me" onclick="substitute10()" />
+        </div>   
+        <div class="col-md-3">   
+            <div id="drink1">
+            <img id="appletini" class="img-responsive" src="images/appletini.jpg">
+            </div>
+            <div id="drink2">
+            <img id="whiskey" class="img-respoinsive" src="images/whiskey-sour.jpg">
+            </div>
+            <div id="drink3">
+            <img id="tequila" class="img-responsive" src="images/tequila.jpg">
+            </div>
+            <div id="drink4">
+            <img id="beer" class="img-responsive" src="images/beer.jpg">
+            </div>    
         </div>
-        
+       </div>      
+        <div class="footer"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>    
     <script src="js/index.js"></script>    
     </body>
 </html>
