@@ -1,0 +1,59 @@
+body{
+    background-image: url("../images/hearts%20background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.header{
+    width: 100%;
+    height: 5em;
+    margin-top: 0;
+    background-color: purple;
+}
+
+#title{
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+    padding: .25em;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name, #feeling, #type, #poem, #game, #choice, #game2, #fun, #drink{
+    font-family: sans-serif;
+    font-size: 1.25em;
+    color: white;
+    font-style: italic;
+}
+
+#message, #message2, #message3, #poetry, #stories, #answer, #riddle1, #answer1, #riddle2, #answer2, #response{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+#drink1, #drink2, #drink3, #drink4{
+    width: 240px;
+    height: 220px;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    display: inline-block;
+}
+
+#appletini, #whiskey, #tequila, #beer, #water, #empty{
+    width: 240px;
+    height: 220px;
+    margin-top: 1em;
+   
+}
+
+
+
